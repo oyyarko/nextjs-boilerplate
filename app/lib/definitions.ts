@@ -5,3 +5,10 @@ export type Task = {
   date: string;
   status: "pending" | "done" | "hold" | "cancelled";
 };
+
+export type User = {
+  id: string;
+  name: string;
+  email: string;
+  password: string;
+};
